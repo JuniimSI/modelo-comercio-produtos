@@ -43,7 +43,7 @@ const Navbar = (props) => {
     return (  
         <nav className={navbar? 'NavbarItems active' : 'NavbarItems '}>
             <Link href="/">
-                <h1 className="navbar-logo">React</h1>
+                <div className="navbar-logo">React</div>
             </Link>
             <div className="menu-icon"  onClick={() => handleClick()}>
                 {clicked
@@ -64,7 +64,7 @@ const Navbar = (props) => {
                     )
                 })}
             </ul>
-            <Button onClick={() => handleClicked} type="button" buttonStyle="primary" buttonSize="medium"> Visite Agora! </Button>
+            <Button onClick={() => handleClicked} type="button" buttonStyle="btn--primary" buttonSize="medium"> Visite Agora! </Button>
     </nav>
     );
 };

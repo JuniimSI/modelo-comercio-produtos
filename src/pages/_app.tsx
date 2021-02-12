@@ -3,11 +3,13 @@ import Layout from '../components/Layout';
 import '../components/Navbar/Navbar.scss';
 import '../components/Button/Button.scss';
 import '../components/Product/Product.scss';
+import '../styles/colors.scss';
+
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
-  box-sizing: border-box;
+    box-sizing: border-box;
   }
   body {
     margin: 0;
