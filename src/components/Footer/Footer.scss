@@ -1,0 +1,60 @@
+@import "../../styles/colors.scss";
+
+@mixin responsive() {
+    @media screen and (max-width: 960px){
+        @content;
+        
+    }
+}
+
+
+.container-footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
+    padding: 15px 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @include responsive(){
+        flex-direction: column;
+        height: auto;
+        overflow: hidden;
+    }
+    color: $white;
+}
+
+.container-footer.down {
+    box-shadow: none;
+    background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
+    padding: 15px 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @include responsive(){
+        flex-direction: column;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+.item-footer{
+    min-width: 200px;
+    margin: 10px;
+}
+
+.little-text{
+    font-size: 12px;
+}
+
+.title-footer {
+    color: $yellow-dark;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-footer {
+    text-align: center;
+    justify-content: center;
+}

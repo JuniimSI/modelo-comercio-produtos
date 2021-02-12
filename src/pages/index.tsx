@@ -1,9 +1,13 @@
-import Head from 'next/head'
+// @flow 
+import * as React from 'react';
 
-export default function Home() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Home = (props) => {
+    return (
+        <div className="container-home">
+          
+            
+        </div>
+    );
+};
+
+export default Home;

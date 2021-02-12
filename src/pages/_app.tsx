@@ -3,6 +3,9 @@ import Layout from '../components/Layout';
 import '../components/Navbar/Navbar.scss';
 import '../components/Button/Button.scss';
 import '../components/Product/Product.scss';
+import '../components/Home/Home.scss';
+import '../components/Contactus/Contactus.scss';
+import '../components/Footer/Footer.scss';
 import '../styles/colors.scss';
 
 import { createGlobalStyle } from 'styled-components';

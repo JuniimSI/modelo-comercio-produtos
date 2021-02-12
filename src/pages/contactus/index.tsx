@@ -3,7 +3,7 @@ import * as React from 'react';
 
 export const Contactus = (props) => {
     return (
-        <div>
+        <div className="container-contactus">
             
         </div>
     );
