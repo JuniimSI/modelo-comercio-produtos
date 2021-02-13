@@ -7,9 +7,30 @@
     }
 }
 
+.bg-footer{
+    transform: matrix(1, 0.1, 0, 1, 0, -70);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
+    padding: 15px 150px;
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @include responsive(){
+        flex-direction: column;
+        height: auto;
+    }
+    min-height: 200px;
+    color: $white;
+    width: 100vw;
+    position: absolute;
+}
 
 .container-footer {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 20;
+    position: relative;
+    box-shadow: none;
     background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
     padding: 15px 150px;
     display: flex;
@@ -22,11 +43,13 @@
     }
     color: $white;
     width: 100vw;
- /* Note a medida */
+    
+    /* Note a medida */
 }
 
 .container-footer.down {
     box-shadow: none;
+    
     background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
     padding: 15px 150px;
     display: flex;

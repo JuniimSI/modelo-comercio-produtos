@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
   }
   html, body {
     min-height: 100vh;
+    max-width: 100vw;
   }
 `
 function MyApp({ Component, pageProps }) {
