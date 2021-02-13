@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lato', sans-serif;
   }
   html, body {
+    overflow-x: hidden;
     min-height: 100vh;
     max-width: 100vw;
   }
