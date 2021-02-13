@@ -28,6 +28,7 @@
     color: $white;
     width: 100vw;
     position: absolute;
+    max-width: 100%;
 }
 
 .container-footer {
@@ -46,7 +47,7 @@
     }
     color: $white;
     width: 100vw;
-    
+    max-width: 100%;
     /* Note a medida */
 }
 
@@ -63,6 +64,7 @@
         flex-direction: column;
         height: auto;
     }
+    max-width: 100%;
 }
 
 .item-footer{
