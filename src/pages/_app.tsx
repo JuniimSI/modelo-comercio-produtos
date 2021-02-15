@@ -7,6 +7,7 @@ import '../components/Home/Home.scss';
 import '../components/Contactus/Contactus.scss';
 import '../components/Footer/Footer.scss';
 import '../styles/colors.scss';
+import '../styles/functions.scss';
 
 import { createGlobalStyle } from 'styled-components';
 

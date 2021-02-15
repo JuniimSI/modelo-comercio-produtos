@@ -43,7 +43,9 @@ const Navbar = (props) => {
     return (  
         <nav className={navbar? 'NavbarItems active' : 'NavbarItems '}>
             <Link href="/">
-                <div className="navbar-logo">React</div>
+                <div className="navbar-logo">
+                    <img width="120" src="./img/logo.png" alt="Logo"/>
+                </div>
             </Link>
             <div className="menu-icon"  onClick={() => handleClick()}>
                 {clicked
