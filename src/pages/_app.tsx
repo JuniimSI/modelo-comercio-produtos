@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Layout from '../components/Layout';
 import '../components/Navbar/Navbar.scss';
 import '../components/Button/Button.scss';
@@ -6,6 +7,8 @@ import '../components/Product/Product.scss';
 import '../components/Home/Home.scss';
 import '../components/Contactus/Contactus.scss';
 import '../components/Footer/Footer.scss';
+import '../components/Services/Services.scss';
+import '../components/CardRedondo/CardRedondo.scss';
 import '../styles/colors.scss';
 import '../styles/functions.scss';
 

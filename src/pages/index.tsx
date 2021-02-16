@@ -1,6 +1,8 @@
 // @flow 
 import * as React from 'react';
 import { Button } from '../components/Button';
+import Services from '../components/Services';
+import Sliders from '../components/Sliders';
 
 const Home = (props) => {
 
@@ -17,9 +19,6 @@ const Home = (props) => {
                     </video>
                 </div>
                 <div>
-                    {/* <div className="panel-1-img">
-                        <img src="./img/roupas.png" width="150" alt=""/>
-                    </div> */}
                     <div className="panel-1-text">
                         <h1 className="title-1-text">Olá, Bem-vindo a Loja X!</h1>
                         <h3 className="subtitle-1-text">Adquire já seus produtos do jeitinho que você gosta.. <br/>
@@ -32,7 +31,11 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="completa">s</div>
+            
+            <Services />
+            <div className="sliders">
+                <Sliders />
+            </div>
         </>
     );
 };
