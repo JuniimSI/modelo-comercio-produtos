@@ -10,7 +10,8 @@ import '../components/Footer/Footer.scss';
 import '../components/Services/Services.scss';
 import '../components/CardRedondo/CardRedondo.scss';
 import '../components/SeparatorZ/SeparatorZ.scss';
-import '../components/Sliders/Sliders.scss';
+import '../components/PanelProdutos/PanelProdutos.scss';
+
 import '../styles/colors.scss';
 import '../styles/functions.scss';
 
@@ -23,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    background-color: #c4eeff;
     /* New styles */
     display: flex;
     flex-direction: column;
@@ -36,6 +38,7 @@ const GlobalStyle = createGlobalStyle`
 `
 function MyApp({ Component, pageProps }) {
   return (
+    
     <Layout>
       <GlobalStyle />
       <Component {...pageProps} />

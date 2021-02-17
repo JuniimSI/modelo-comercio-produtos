@@ -1,8 +1,8 @@
 // @flow 
 import * as React from 'react';
 import { Button } from '../components/Button';
+import PanelProdutos from '../components/PanelProdutos';
 import Services from '../components/Services';
-import Sliders from '../components/Sliders';
 
 const Home = (props) => {
 
@@ -33,9 +33,8 @@ const Home = (props) => {
             </div>
             
             <Services />
-            <div className="sliders">
-                <Sliders />
-            </div>
+            <PanelProdutos />
+            
         </>
     );
 };

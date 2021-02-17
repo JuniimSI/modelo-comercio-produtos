@@ -1,0 +1,77 @@
+@import "../../styles/colors.scss";
+@import "../../styles/functions.scss";
+
+.container-produtos{
+    margin-top: -110px;
+    padding-top: 300px;
+    margin-bottom: 200px;
+
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    overflow: hidden;
+   
+    min-height: 800px;
+    max-width: 100%;
+}
+
+.panel-2-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.panel-2-text{
+    
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 1;
+
+    @include responsive(){
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
+
+.title-2-text{
+    color: $blue-light;
+    padding: 5px;
+    margin: 0;
+    font-size: 70px;
+    @include responsive(){
+       font-size: 48px;
+       
+    }
+}
+
+.subtitle-2-text{
+    text-shadow: 0 0 3px $blue-dark, 0 0 5px $blue-light;
+    color: white;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+.subsubtitle-2-text{
+    color: white;
+    padding: 5px;
+    margin: 0;
+    font-weight: 1;
+}
+
+.panel-2-buttons{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-container-produtos{
+    margin: 0 auto;
+    align-items: center;
+}
