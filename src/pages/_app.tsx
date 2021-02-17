@@ -10,6 +10,7 @@ import '../components/Footer/Footer.scss';
 import '../components/Services/Services.scss';
 import '../components/CardRedondo/CardRedondo.scss';
 import '../components/SeparatorZ/SeparatorZ.scss';
+import '../components/Sliders/Sliders.scss';
 import '../styles/colors.scss';
 import '../styles/functions.scss';
 

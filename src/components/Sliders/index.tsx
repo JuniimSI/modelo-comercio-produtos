@@ -1,15 +1,14 @@
 // @flow 
 import * as React from 'react';
 
-type Props = {
-    
-};
-export const Sliders = (props: Props) => {
-    return (
-        <div>
 
-        </div>
-    );
-};
+export const Sliders = (props) => {
+
+        return (
+            <div>
+              Sliders
+            </div>
+        );
+    };
 
 export default Sliders;
