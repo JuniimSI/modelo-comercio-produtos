@@ -1,0 +1,14 @@
+@import "../../styles/colors.scss";
+@import "../../styles/functions.scss";
+
+.separator{
+    transform: matrix(1, 0, 0, 1, 0, 90);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(90deg, $blue-light 0%, $blue-dark 100%);
+    padding: 15px 150px;
+    z-index: -1;
+    min-height: 300px;
+    width: 100vw;
+    position: absolute;
+    max-width: 100%;
+}

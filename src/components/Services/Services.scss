@@ -5,8 +5,26 @@
     margin-top: 80px;
     min-height: 400px;
     background-color: $white;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+    align-items: center;
     width: 100%;
-    padding: 20px 140px;
+    padding: 25px 60px;
+    border-radius: 10px;
+    max-width: 1280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-title{
+    padding-bottom: 30px;
+    color: $blue-light;
+}
+
+.grid-container{
+    padding: 5px 60px;
+    padding-bottom: 40px;
+    @include responsive(){   
+        width: 100vw;
+        padding: 25px 10px;
+    }
 }

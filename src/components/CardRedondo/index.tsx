@@ -25,7 +25,7 @@ const CardRedondo = (props: Props) => {
 
     return (
         <Card className={classes.root}>
-            <CardActionArea>
+            <CardActionArea >
                 <CardMedia
                     component="img"
                     alt="Contemplative Reptile"
