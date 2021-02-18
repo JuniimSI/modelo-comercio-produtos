@@ -43,6 +43,8 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <title>Model</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Monoton" rel="stylesheet" />      
         <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
       </Head>
       <GlobalStyle />

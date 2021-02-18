@@ -37,7 +37,7 @@
     justify-content: center;
     text-align: right;
     font-weight: 1;
-
+    
     @include responsive(){
         margin-left: 4px;
         margin-right: 4px;
@@ -47,9 +47,12 @@
 }
 
 .title-2-text{
+    font-family: 'Monoton';
     color: $blue-light;
     padding: 5px;
     margin: 0;
+    line-height: 1;
+    font-weight: 2;
     font-size: 70px;
     @include responsive(){
        font-size: 48px;
