@@ -1,8 +1,12 @@
 // @flow 
+import dynamic from 'next/dynamic'
 import * as React from 'react';
 import { Button } from '../components/Button';
 import PanelProdutos from '../components/PanelProdutos';
 import Services from '../components/Services';
+const Location = dynamic(() => import("../components/Location/index.js"), {
+    ssr: false
+  });
 
 const Home = (props) => {
 
@@ -34,7 +38,7 @@ const Home = (props) => {
             
             <Services />
             <PanelProdutos />
-            
+            <Location />
         </>
     );
 };

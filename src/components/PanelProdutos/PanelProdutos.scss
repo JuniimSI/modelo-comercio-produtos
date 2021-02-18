@@ -30,7 +30,7 @@
     margin-right: 90px;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: right;
     font-weight: 1;
 
     @include responsive(){
@@ -68,7 +68,9 @@
     padding: 15px;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: right;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .item-container-produtos{

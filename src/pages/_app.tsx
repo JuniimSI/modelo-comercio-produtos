@@ -11,6 +11,7 @@ import '../components/Services/Services.scss';
 import '../components/CardRedondo/CardRedondo.scss';
 import '../components/SeparatorZ/SeparatorZ.scss';
 import '../components/PanelProdutos/PanelProdutos.scss';
+import '../components/Location/Location.scss';
 
 import '../styles/colors.scss';
 import '../styles/functions.scss';
@@ -40,6 +41,10 @@ function MyApp({ Component, pageProps }) {
   return (
     
     <Layout>
+      <Head>
+        <title>Model</title>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+      </Head>
       <GlobalStyle />
       <Component {...pageProps} />
     </Layout>
