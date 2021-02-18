@@ -47,7 +47,10 @@ const Navbar = (props) => {
                     <img width="120" src="./img/logo.png" alt="Logo"/>
                 </div>
             </Link>
+            
             <div className="menu-icon"  onClick={() => handleClick()}>
+                <p style={{color: 'white'}}>__</p>
+                
                 {clicked
                     ? <FontAwesomeIcon color="white" icon="times" />
                     : <FontAwesomeIcon color="white" icon="bars" /> 
@@ -66,7 +69,9 @@ const Navbar = (props) => {
                     )
                 })}
             </ul>
-            <Button onClick={() => handleClicked} type="button" buttonStyle="btn--primary" buttonSize="medium"> Visite Agora! </Button>
+            <div className="Button">
+                <Button onClick={() => handleClicked} type="button" buttonStyle="btn--primary" buttonSize="medium"> Visite Agora! </Button>
+            </div>
     </nav>
     );
 };

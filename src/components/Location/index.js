@@ -1,15 +1,21 @@
 // @flow 
 import * as React from 'react';
 import { useState } from "react";
-import ReactMapGL, {Marker} from 'react-map-gl';
+import ReactMapGL, {Marker, NavigationControl} from 'react-map-gl';
+import MyMarker from '../MyMarker';
 
 export const Location = (props) => {
     const [viewport, setViewport] = React.useState({
         latitude: 37.7577,
         longitude: -122.4376,
-        zoom: 15,
+        zoom: 19,
         scrollZoom: false
       });
+
+      const navControlStyle= {
+        right: 15,
+        top: 300
+      };
 
       const [settings, setsettings] = useState({
         dragPan: true,
@@ -35,8 +41,10 @@ export const Location = (props) => {
                     mapboxApiAccessToken={process.env.MAPBOX_KEY}
                     onViewportChange={(viewport) => setViewport(viewport)}
                 >
-                    <Marker latitude={37.7577} longitude={-122.4376}>
-                        <div>Loja</div>
+                     <NavigationControl style={navControlStyle} />
+                    <Marker className="marker-style" latitude={37.7577} longitude={-122.4376}>
+                        <MyMarker name="Loja!!!" description="Visite-nos!"/>
+                        <img width="50" src="./img/place.svg" />
                     </Marker>
                 </ReactMapGL>
             </div>
