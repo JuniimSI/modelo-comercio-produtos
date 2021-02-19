@@ -19,16 +19,16 @@ const Services = (props: Props) => {
                 </h1>
                 <Grid container spacing={6} className="grid-container">
                     <Grid item lg={3} sm={6} xs={12}>
-                        <CardRedondo name="Nome1" description="Descrição 1 Descrição 1 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
+                        <CardRedondo name="Venda" img="venda.jpg" description="Descrição 1 Descrição 1 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
                     </Grid>
                     <Grid item lg={3} sm={6} xs={12}>
-                        <CardRedondo name="Nome2" description="Descrição 2 Descrição 2 Descrição 2 Descrição 2 Descrição 2 Descrição 1"/>
+                        <CardRedondo name="Empréstimo" img="emprestimo.jpg" description="Descrição 2 Descrição 2 Descrição 2 Descrição 2 Descrição 2 Descrição 1"/>
                     </Grid>
                     <Grid item lg={3} sm={6} xs={12}>
-                        <CardRedondo name="Nome3" description="Descrição 3 Descrição 3 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
+                        <CardRedondo name="Telefonia" img="telefonia.jpg" description="Descrição 3 Descrição 3 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
                     </Grid>
                     <Grid item lg={3} sm={6} xs={12}>
-                        <CardRedondo name="Nome4" description="Descrição 4 Descrição 4 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
+                        <CardRedondo name="Internet" img="internet.jpg" description="Descrição 4 Descrição 4 Descrição 1 Descrição 1 Descrição 1 Descrição 1"/>
                     </Grid>
                     
                 

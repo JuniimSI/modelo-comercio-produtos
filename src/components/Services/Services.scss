@@ -4,7 +4,11 @@
 .service-container{
     margin-top: 80px;
     min-height: 400px;
-    background-color: $white;
+    //background-color: $white;
+    background-image: url('../../../public/img/textura-papel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -21,10 +25,18 @@
 }
 
 .grid-container{
-    padding: 5px 60px;
+    padding: 5px 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
     padding-bottom: 40px;
+    align-items: center;
     @include responsive(){   
         width: 100vw;
         padding: 25px 10px;
     }
+}
+
+.grid-item{
+    min-width: 400px;
 }

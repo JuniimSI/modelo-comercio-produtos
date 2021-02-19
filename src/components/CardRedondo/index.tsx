@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 type Props = {
     name: String,
     description: String,
+    img: String
 };
 
 const useStyles = makeStyles({
@@ -30,7 +31,7 @@ const MyMarker = (props: Props) => {
                     component="img"
                     alt="Contemplative Reptile"
                     height="140"
-                    image="./img/bg.jpg"
+                    image={`./img/services/${props.img}`}
                     title="Contemplative Reptile"
                 />
                 <CardContent>
